@@ -2,7 +2,7 @@
   <div id="app">
     <router-view />
     <footer>
-    <p>&copy; 2025 子涵微博简易版公司. 版权所有.</p>
+    <p>&copy; 2025 子涵微博科技有限公司. 版权所有.</p>
     <div>
         <a href="/about">关于我们</a> |
         <a href="/contact">联系我们</a> |
