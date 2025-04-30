@@ -18,43 +18,48 @@ let publish = () => {
 
 <style scoped>
 .input-wrapper {
-  height: 50px;
+  height: 60px;
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
+  background-color: #f5f5f5;
 }
 
 .input-content {
   flex: 1;
   height: 50px;
-  border-radius: 5px;
-  border: 1px solid;
+  border-radius: 8px;
+  border: 1px solid #ddd;
   margin-right: 20px;
+  padding: 0 10px;
+  font-size: 16px;
 }
 
-/* 输入框.input-content输入内容时外框变成黄色 */
 .input-content:focus {
-  border: 1px solid rgb(111, 150, 201);
+  border: 1px solid #4a90e2;
   outline: none;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
 }
 
 .button-input {
   width: 100px;
   height: 50px;
-  border-radius: 5px;
-  background-color: orange;
+  border-radius: 8px;
+  background-color: #4a90e2;
   color: #fff;
   border: none;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .button-input:hover {
-  background-color: rgb(255, 165, 0);
+  background-color: #357abd;
   cursor: pointer;
-  color: coral;
-  transition: 0.5s;
+  color: #fff;
+  transition: 0.3s;
 }
 </style>
