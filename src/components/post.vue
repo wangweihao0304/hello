@@ -9,7 +9,7 @@
             <div class="comment-content">{{ item.content }}</div>
             <div class="comment-info">
                 <span class="publishtimecss">{{ item.updated_at }}</span>
-                <RouterLink to="/likes" class="likes">喜欢:{{ item.likes }}</RouterLink>
+                <RouterLink to="/likes" class="likes" img="">喜欢:{{ item.likes }}</RouterLink>
                 <RouterLink to="/comments" class="comments">评论:{{ item.comments }}</RouterLink>
             </div>
             <button type="submit" :value="item.postid" @click="detail" class="details">详情</button>
