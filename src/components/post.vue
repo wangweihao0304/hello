@@ -30,14 +30,14 @@
     .comment-item{
         margin: 10px;
         padding: 10px;
-        border: 1px solid #ccc;
+        border: 1px solid #ffffff;
         border-radius: 5px;
-        background-color: #eee;
+        background-color: #ffffff;
         display: flex;
         justify-content:space-between;
         flex-direction: column; 
         color: #1d1c1c;
-        background-color: rgb(228, 228, 228);
+        background-color: rgb(255, 255, 255);
     }
 
     .details {
@@ -45,7 +45,7 @@
   height: 20px;
   margin-right: 40px;
   color: #fff;
-  background-color: #747069;
+  background-color: #FF8200;
   border-radius: 10px;
   box-shadow: 0 0 10px #656463;
   border: none;
@@ -54,7 +54,7 @@
 .details:hover {
   cursor: pointer;
   
-  background-color: #657eb4;
+  background-color: #FF5900;
   transform: scale(1.1);
 }
     .comment-info{
@@ -81,13 +81,13 @@
         margin: 10px;
     }
     .likes{
-        color: rgb(52, 48, 48);
+        color: #FF8200;
         font-size: 18px;
         font-weight: bold;
 
     }
     .comments{
-        color: #333131;
+        color: #FF8200;
         font-size: 18px;
         font-weight: bold;
         margin-right: 10px;

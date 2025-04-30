@@ -30,7 +30,7 @@ const login = () => {
 .guide-head {
   width: 100%; 
   height: 75px;
-  background-color: #fff5e3;
+  background-color: #FEE8D3;
   display: flex;
   justify-content: space-between; 
   align-items: center;
@@ -48,16 +48,16 @@ const login = () => {
   height: 40px;
   margin-right: 40px;
   color: #fff;
-  background-color: #ffa500;
+  background-color: #FF8200;
   border-radius: 10px;
-  box-shadow: 0 0 10px #bc7a00;
+  box-shadow: 0 0 10px #ad7102;
   border: none;
   transition: background-color 0.3s ,transform 0.3s;
 }
 .login:hover {
   cursor: pointer;
   
-  background-color: #627bb0;
+  background-color: #FF5900;
   transform: scale(1.1);
 }
 </style>

@@ -13,7 +13,7 @@ export default {
 <style>
 /* 添加全局背景色 */
 body {
-  background-color: #808080; /* 灰色背景 */
+  background-color: #F1F2F5; /* 灰色背景 */
   margin: 0;
   padding: 0;
   height: 100vh;

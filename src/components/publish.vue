@@ -47,14 +47,16 @@ let publish = () => {
   height: 50px;
   border-radius: 5px;
   background-color: orange;
-  color: #fff;
+  color: #ffffff;
   border: none;
+  box-shadow: 0 0 10px1#ad7102;
+  transition: background-color 0.3s,transform 0.3s;
 }
 
 .button-input:hover {
-  background-color: rgb(255, 165, 0);
+  background-color: #FF5900;
   cursor: pointer;
-  color: coral;
-  transition: 0.5s;
+  
+  transform: scale(1.1);
 }
 </style>
