@@ -1,26 +1,21 @@
-<!-- src/App.vue -->
-<script setup lang="ts">
-import Footer from '@/components/Footer.vue'
-</script>
-
 <template>
-  <div class="app-container">
-    <div class="content">
-    <router-view></router-view>
-    </div>
-    <Footer/>
-</div>
-    
+  <div id="app">
+    <router-view />
+  </div>
 </template>
 
-<style scoped>
-.app-container {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  justify-content: space-between;
+<script>
+export default {
+  name: 'App'
 }
-.content {
-  flex-grow: 1;
+</script>
+
+<style>
+/* 添加全局背景色 */
+body {
+  background-color: #808080; /* 灰色背景 */
+  margin: 0;
+  padding: 0;
+  height: 100vh;
 }
 </style>
